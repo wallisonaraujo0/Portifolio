@@ -14,6 +14,9 @@
 }
 
 .cabecalho_menu {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
     background-color: #272b3a87;
 }
 
@@ -24,4 +27,21 @@
 .cabecalho_item-menu a {
     display: inline-block;
     padding: 1.83em 1.42em;
+}
+@media(min-width:640px){
+.cabecalho{
+    padding: 0 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.cabecalho_logo{
+    padding: 2.5em 0;
+}
+
+.cabecalho_menu{
+    background-color: transparent;
+}
+
 }
