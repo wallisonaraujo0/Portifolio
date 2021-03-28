@@ -1,4 +1,4 @@
-.cabecalho{
+.cabecalho {
     text-align: center;
     font-size: 0.6rem;
     font-weight: bold;
@@ -8,7 +8,7 @@
     color: #fff;
 }
 
-.cabecalho_logo{
+.cabecalho_logo {
     padding: 1.5em 0;
     width: 14.5em;
 }
@@ -28,20 +28,38 @@
     display: inline-block;
     padding: 1.83em 1.42em;
 }
-@media(min-width:640px){
-.cabecalho{
-    padding: 0 5%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 
-}
-.cabecalho_logo{
-    padding: 2.5em 0;
+@media(min-width:640px) {
+    .cabecalho {
+        padding: 0 5%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .cabecalho_logo {
+        padding: 2.5em 0;
+    }
+    .cabecalho_menu {
+        background-color: transparent;
+    }
 }
 
-.cabecalho_menu{
-    background-color: transparent;
+@media (min-width: 770px) {
+    .cabecalho_item-menu-matricular {
+        margin-left: 1.42em;
+        border-radius: 6px;
+        background-color: #e93d50;
+    }
+
+    .cabecalho_item-menu-matricular a{
+        padding: 1.8em 3.5em;
+    }
 }
 
+@media (min-width: 1066px) {
+    .cabecalho{
+        padding-left: calc((100%-960px)/2);
+        padding-right: ((100%-960px)/2);
+        
+    }
 }
