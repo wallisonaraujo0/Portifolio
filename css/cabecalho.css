@@ -26,12 +26,13 @@
 
 .cabecalho_item-menu a {
     display: inline-block;
-    padding: 1.83em 1.42em;
+    padding: 1.86em 1.42em;
 }
 
 @media(min-width:640px) {
     .cabecalho {
-        padding: 0 5%;
+        padding-top: 0;
+        padding-bottom: 0;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -56,10 +57,3 @@
     }
 }
 
-@media (min-width: 1066px) {
-    .cabecalho{
-        padding-left: calc((100%-960px)/2);
-        padding-right: ((100%-960px)/2);
-        
-    }
-}
