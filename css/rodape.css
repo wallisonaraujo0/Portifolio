@@ -47,7 +47,7 @@
 }
 
 @media (max-width: 640px) {
-    .rodape_secao+.rodape_secao {
+    .rodape_secao, .rodape_secao {
         margin-top: 2em;
     }
 }
@@ -87,16 +87,16 @@
         font-size: 0.85rem;
         text-align: left;
     }
-    .rodape__titulo {
+    .rodape_titulo {
         font-size: 1em;
     }
-    .rodape__lista-midias-sociais {
+    .rodape_lista-midias-sociais {
         justify-content: left;
     }
-    .rodape__secao {
+    .rodape_secao {
         margin-top: 0;
     }
-    .rodape__secao+.rodape__secao {
+    .rodape_secao+.rodape_secao {
         margin-left: 2em;
     }
 }
